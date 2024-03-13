@@ -2,7 +2,7 @@ package Motiocut_Project1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//Question class
 class Question {
     private String questionText;
     private ArrayList<String> options;
@@ -26,7 +26,7 @@ class Question {
         return correctAnswerIndex;
     }
 }
-
+//Quiz class
 class Quiz {
     private ArrayList<Question> questions;
     private int score;
